@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("bg.jpg");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menubar {
+    background-color: rgb(147, 140, 121);
+    color: black;
+    font-family: 'Lobster', cursive;
+    height: 34px;
+    width: 100%;
+    padding: 3px 17px;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    color: black;
+}
+
+img {
+    height: 249px;
+    border: 2px solid rgb(3, 3, 104);
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1rem;
+    color: rgb(2, 2, 10);
+    border: 1px solid rgb(13, 8, 56);
+}
+
+.headlines {
+    position: absolute;
+    top: 90%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    top: 40%;
+    right: 40%;
+}
+
+.btn-headline {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
